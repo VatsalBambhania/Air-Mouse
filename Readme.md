@@ -8,14 +8,18 @@ PREREQUISITES:
 
 If you want to do it yourself, than follow the steps given below:
 1) clone Air-Mouse
-   git clone https://github.com/VatsalBambhania/Air-Mouse/
+
+   $ git clone https://github.com/VatsalBambhania/Air-Mouse/
 2) Go into cloned directory
-   cd Air-Mouse
+
+   $ cd Air-Mouse
 3) Start building project
-   bazel build -c opt --copt -DMESA_EGL_NO_X11_HEADERS --copt -DEGL_NO_X11 \
+
+   $ bazel build -c opt --copt -DMESA_EGL_NO_X11_HEADERS --copt -DEGL_NO_X11 \
    mediapipe/examples/desktop/hand_tracking:hand_tracking_gpu_cust
 4) Once it is done build, in order to run solution 
-   bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_gpu_cust \
+
+   $ bazel-bin/mediapipe/examples/desktop/hand_tracking/hand_tracking_gpu_cust \
    --calculator_graph_config_file=mediapipe/graphs/hand_tracking/working_mouse.pbtxt
 
 
