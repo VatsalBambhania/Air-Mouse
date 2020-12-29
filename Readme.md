@@ -1,10 +1,10 @@
 This repository contains the code and framework modules used to build the project.
 
 PREREQUISITES:
-Linux Opereating system (I build on UBUNTU 18.04LTS)
-A g++ compiler (It already comes with ubuntu, but if you don't have one than install one)
-OpenCV (If you don't have it installed already, I would recommend install it in /usr/local/bin).
-Bazel (https://docs.bazel.build/versions/master/install-ubuntu.html shows how to install it on your system)
+1) Linux Opereating system (I build on UBUNTU 18.04LTS)
+2) A g++ compiler (It already comes with ubuntu, but if you don't have one than install one)
+3) OpenCV (If you don't have it installed already, I would recommend install it in /usr/local/bin).
+4) Bazel (https://docs.bazel.build/versions/master/install-ubuntu.html shows how to install it on your system)
 
 If you want to do it yourself, than follow the steps given below:
 1) clone Air-Mouse
