@@ -4,6 +4,7 @@ The key concept here is to find a software based way to replace the requirement 
 
 Our project is still in it's beta stage and there can be several bugs in the software, given below is the instruction needed to build by yourself on you device, also feel free to report any bugs you encounter, i'll try to solve them. Also on mediapipe's official github https://github.com/google/mediapipe/issues you can lookout for common bugs and issues.
 
+Also if you just want to use it right away i have a executable which you can clone directly from https://github.com/VatsalBambhania/AirMouse or you can install using docker image from https://hub.docker.com/repository/docker/assassioner/air_mouse (use v1 tag NOT latest)
 
 This repository contains the code and framework modules used to build the project.
 
