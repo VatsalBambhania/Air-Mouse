@@ -1,3 +1,10 @@
+Air Mouse is an software alternative for hardware required for mouse.
+
+The key concept here is to find a software based way to replace the requirement of hardware mouse needed to control the cursor in your computer.
+
+Our project is still in it's beta stage and there can be several bugs in the software, given below is the instruction needed to build by yourself on you device, also feel free to report any bugs you encounter, i'll try to solve them. Also on mediapipe's official github https://github.com/google/mediapipe/issues you can lookout for common bugs and issues.
+
+
 This repository contains the code and framework modules used to build the project.
 
 PREREQUISITES:
